@@ -1,0 +1,87 @@
+body {
+  background-color: #1C043E;
+  color: white;
+}
+
+.background-purple {
+  background-color: #1C043E;
+}
+
+.button {
+  width: 100%;
+  border: 1px solid #2EE5F3;
+  color: #2EE5F3;
+  border-radius: 3px;
+}
+
+.button:hover {
+  width: 100%;
+  background-color:  #2EE5F3;
+  color: white;
+}
+
+.blue-text-button {
+  color: #2EE5F3;
+  border-radius: 3px;
+}
+
+.blue-text-button:hover {
+  background-color: #2EE5F3;
+  color: white;
+}
+
+.red-text-button {
+  color: #F53445;
+  border-radius: 3px;
+}
+
+.red-text-button:hover {
+  background-color: #F53445;
+  color: white;
+}
+
+input {
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #1C043E;
+  color: white;
+  padding: 20px;
+  border-radius: 3px;
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.spinner {
+  animation: rotate 2s linear infinite;
+  width: 50px;
+  height: 50px;
+  
+  & .path {
+      stroke: #5652BF;
+      stroke-linecap: round;
+      animation: dash 1.5s ease-in-out infinite;
+  }
+}
