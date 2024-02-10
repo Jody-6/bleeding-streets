@@ -12,7 +12,7 @@ export default function Character(props: {token: string, isEdit: boolean}): JSX.
 
   const [character, setCharacter] = useState<any>({
     id: characterid,
-    name: 'hi there again',
+    name: '',
     class: '',
     intelligence: 0,
     strength: 0,

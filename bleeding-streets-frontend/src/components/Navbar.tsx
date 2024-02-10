@@ -11,7 +11,7 @@ export default function Navbar() {
               <NavLink to="/">Characters</NavLink>
             </li>
             <li className="p-5">
-              <NavLink to="fight">Fight</NavLink>
+              <NavLink to="roll-dice">Roll Dice</NavLink>
             </li>
             <li className="p-5">
               <NavLink to="about">About</NavLink>
